@@ -165,12 +165,14 @@
         #videos-container {
             margin: 0 auto;
             width: 90%;
+            height: 100%;
             display: grid;
             grid-template-columns: repeat(1,2fr);
         }
         
         #videos-container iframe{
             width: 100%;
+            height: 40vh;
         }
         
         
