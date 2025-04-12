@@ -1,4 +1,7 @@
 
+
+
+
 function selecao() {
    var audio = document.getElementById("selecao-song");
     audio.play()

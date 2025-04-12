@@ -158,6 +158,7 @@
             max-width: 70vh; /*1536px*/
             min-width: 20vh;
             margin: 0 auto;
+            min-width: 352px;
         }
         
         

@@ -278,10 +278,9 @@ body .sem-scroll {
 
 
 #videopag-container {
-    width: 100%;
+    width: 300vh;
     max-width: 96em; /*1536px*/
     min-width: 768px;
-    min-height: 300px;
     margin: 0 auto;
 }
 
@@ -295,6 +294,8 @@ body .sem-scroll {
 
 #videos-container iframe{
     width: 100%;
+    height: 480px;
+
 }
 
 
