@@ -1,8 +1,14 @@
-@media screen and (max-width: 768px) { 
-    body {
-        font-size: 10px;
+@media screen and (max-width: 768px) {
 
+
+    
+    body{
+        font-size: 10px;
     }
+
+
+    
+
         #conteudo-inicial {
         width: 80%;
         min-width: 50px;
@@ -15,6 +21,7 @@
         display: flex;
         position: relative;
         }
+
 
         #card1 {
             
@@ -85,12 +92,7 @@
 
 
 
-        #estilo-video #tipo-video a:hover {
-            color: #ffcc00;
-            font-size: clamp(0.5rem,8vw,6.5em);
-            text-shadow: 0 0 5px #ffcc00;
-            
-        }
+      
         
         #estilo-video #tipo-video a {
             text-transform: uppercase;
@@ -145,15 +147,6 @@
             color: #ffffff;
             transition: 1.01s;
         
-        }
-        
-        #tipo-video a:hover {
-            color: #ffcc00;
-            font-size: 5.5em;
-            font-size: clamp(2.5rem,5vw,6.5em);
-            text-shadow: 0 0 5px #ffcc00;
-            text-shadow: 10px 0 #090a0f;
-            
         }
         
 
@@ -219,7 +212,6 @@
         
 
         
-            
 
-    }
-    
+
+        }

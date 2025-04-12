@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+
+    
+
+
 a, ul {
     text-decoration: none;
     list-style: none;
@@ -38,6 +42,8 @@ h3 {
     transition: 1.03s;
 }
 
+@media (hover: hover) {
+
 h3:hover {
     color: #ffcc00;
     scale: 1.05;
@@ -59,6 +65,51 @@ h3:hover {
     text-shadow: 0 0 5px #ffcc00;
 }
 
+#tipo-video a:hover {
+    color: #ffcc00;
+    font-size: 5.5em;
+    font-size: clamp(3.5rem,5vw,6.5em);
+    text-shadow: 0 0 5px #ffcc00;
+    text-shadow: 10px 0 #090a0f;
+    
+}
+#estilo-video #tipo-video a:hover {
+    color: #ffcc00;
+    font-size: clamp(1.5rem,5vw,6.5em);
+    text-shadow: 0 0 5px #ffcc00;
+    
+}
+
+#retornar a:hover {
+    color: #ffffff;
+    font-size: 1.6em;
+    
+    
+}
+
+#inicio:hover, #contato:hover {
+    opacity: 100%;
+    scale: 1.1;
+
+}
+
+.caixa-video:hover {
+    scale: 1.06;
+   
+}
+
+#estilo-video #inicio:hover {
+    opacity: 100%;
+    scale: 1.1;
+
+}
+
+#estilo-video #inicio a:hover {
+    color: aliceblue;
+    scale: 1.1;
+}
+}
+
 #tipo-video a {
     text-transform: uppercase;
     margin: 0 auto;
@@ -69,14 +120,7 @@ h3:hover {
 
 }
 
-#tipo-video a:hover {
-    color: #ffcc00;
-    font-size: 5.5em;
-    font-size: clamp(3.5rem,5vw,6.5em);
-    text-shadow: 0 0 5px #ffcc00;
-    text-shadow: 10px 0 #090a0f;
-    
-}
+
 
 @font-face {
     font-family: 'font poppins';
@@ -202,11 +246,7 @@ body .sem-scroll {
     scale: 0.6;
 }
 
-#inicio:hover, #contato:hover {
-    opacity: 100%;
-    scale: 1.1;
 
-}
 
 #inicio {
     padding: 12px;
@@ -235,12 +275,7 @@ body .sem-scroll {
     transition: 1.01s;
 }
 
-#retornar a:hover {
-    color: #ffffff;
-    font-size: 1.6em;
-    
-    
-}
+
 
 #videopag-container {
     width: 100%;
@@ -277,10 +312,7 @@ body .sem-scroll {
     transition: 0.5s;
 }
 
-.caixa-video:hover {
-    scale: 1.06;
-   
-}
+
 
 iframe {
     border-radius: 20px;
@@ -315,12 +347,7 @@ iframe {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
-#estilo-video #tipo-video a:hover {
-    color: #ffcc00;
-    font-size: clamp(1.5rem,5vw,6.5em);
-    text-shadow: 0 0 5px #ffcc00;
-    
-}
+
 
 #estilo-video #tipo-video a {
     text-transform: uppercase;
@@ -336,10 +363,7 @@ iframe {
     transition: 1.01s;
 }
 
-#estilo-video #inicio a:hover {
-    color: aliceblue;
-    scale: 1.1;
-}
+
 
 #estilo-video #inicio {
     width: 10%;
@@ -355,9 +379,5 @@ iframe {
     scale: 0.8;
 }
 
-#estilo-video #inicio:hover {
-    opacity: 100%;
-    scale: 1.1;
 
-}
 
