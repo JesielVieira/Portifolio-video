@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+/*#card2*/ .menu a {
+    text-transform: uppercase;
+    font-size: 8.5em;
+    font-size: clamp(1.5rem,6vw,8.5em);
+    color: antiquewhite;
+    transition: 1.01s;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 5.5em;
+    font-size: clamp(2.5rem,5vw,5.5em);
+    color: #ffcc00
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 3.5em;
+    color: #ffcc00
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #ffcc00;
+    margin: 10px auto;
+    text-align: center;
+    transition: 1.03s;
+}
+
+h3:hover {
+    color: #ffcc00;
+    scale: 1.05;
+    text-shadow: 0 0px 5px #ffcc00;
+    cursor: pointer;
+}
+
+#card1:hover, /*#card2*/.menu:hover {
+    scale: 1.02;
+
+   
+
+}
+
+/*#card2*/ .menu a:hover {
+    color: #ffcc00;
+    font-size: 9.5em;
+    font-size: clamp(4.5rem,9vw,9.5em);
+    text-shadow: 0 0 5px #ffcc00;
+}
+
+#tipo-video a {
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 4.5em;
+    font-size: clamp(2.5rem,4vw,5.5em);
+    color: #ffffff;
+    transition: 1.01s;
+
+}
+
+#tipo-video a:hover {
+    color: #ffcc00;
+    font-size: 5.5em;
+    font-size: clamp(3.5rem,5vw,6.5em);
+    text-shadow: 0 0 5px #ffcc00;
+    text-shadow: 10px 0 #090a0f;
+    
+}
+
+@font-face {
+    font-family: 'font poppins';
+    src: url(font/Poppins-Black.woff);
+}
+
+body {
+    font-family: 'font poppins';
+    font-size: 16px;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    animation: grow 0.5s;
+}
+
+body .com-scroll {
+    overflow: visible;
+}
+
+body .sem-scroll {
+    overflow: hidden;
+}
+
+@keyframes grow {
+    0% { transform: scale(0.9);}
+  100% { transform: scale(1);}
+   
+}
+
+#conteudo-inicial {
+    width: 90%;
+    min-width: 768px;
+    max-width: 108em; /*1728px*/
+    height: 70vh; /* 700px */
+    min-height: 300px;
+    margin: 0px auto;
+    margin-bottom: 185px;
+}
+
+#card-container {
+    width: 100%;
+    height: 100%;
+    margin: 100px auto;
+    
+    text-align: center;
+    padding: 5px; 
+    
+}
+
+
+#card1 {
+    display: flex;
+    float: left;
+    border-radius: 50px;
+    width: 45%; /* 776.25px */
+    height: 100%;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: 0.5s;
+}
+
+/*#card2*/ .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    background-color: #252525;
+    border-radius: 50px;
+    width: 53%;
+    height: 100%;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: 0.5s;
+}
+
+
+
+#tipo-video {
+    width: 90%;
+    padding: 5px;
+    border-radius: 5x;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+#retornar {
+    width: 40%;
+    opacity: 80%;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+    
+#inicio, #contato {
+    width: 40%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    transition: 1.02s;
+    opacity: 30%;
+    scale: 0.6;
+}
+
+#inicio:hover, #contato:hover {
+    opacity: 100%;
+    scale: 1.1;
+
+}
+
+#inicio {
+    padding: 12px;
+    background: radial-gradient(circle, rgba(158, 178, 245, 0.13) 0%, rgba(30, 78, 238, 0.103) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+#contato {
+    padding: 12px;
+    background: radial-gradient(circle, rgba(158, 178, 245, 0.13) 0%, rgba(30, 78, 238, 0.103) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+#retornar a {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #636363;
+    transition: 1.01s;
+}
+
+#retornar a:hover {
+    color: #ffffff;
+    font-size: 1.6em;
+    
+    
+}
+
+#videopag-container {
+    width: 100%;
+    max-width: 96em; /*1536px*/
+    min-width: 768px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+
+#videos-container {
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+
+#videos-container iframe{
+    width: 100%;
+}
+
+
+.caixa-video {
+    width: 92%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(53, 55, 194, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: 0.5s;
+}
+
+.caixa-video:hover {
+    scale: 1.06;
+   
+}
+
+iframe {
+    border-radius: 20px;
+    border: none;
+}
+
+#escolher-container {
+    width: 90%;
+    min-width: 768px;
+    max-width: 108em; /*1728px*/
+    height: 80vh;
+    max-height: 95vh;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    padding-bottom: 20px;
+}
+
+#estilo-video #tipo-video {
+    
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(0, 47, 255, 0.1), rgba(156, 6, 6, 0.205));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+#estilo-video #tipo-video a:hover {
+    color: #ffcc00;
+    font-size: clamp(1.5rem,5vw,6.5em);
+    text-shadow: 0 0 5px #ffcc00;
+    
+}
+
+#estilo-video #tipo-video a {
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: clamp(2.5rem,8vw,8.5em);
+    color: #ffffff;
+    transition: 1.01s;
+
+}
+
+#estilo-video #inicio a {
+    color: aliceblue;
+    transition: 1.01s;
+}
+
+#estilo-video #inicio a:hover {
+    color: aliceblue;
+    scale: 1.1;
+}
+
+#estilo-video #inicio {
+    width: 10%;
+    padding: 12px;
+    margin-top: -60px;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.13) 0%, rgba(30, 78, 238, 0.103) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: 1.02s;
+    opacity: 40%;
+    scale: 0.8;
+}
+
+#estilo-video #inicio:hover {
+    opacity: 100%;
+    scale: 1.1;
+
+}
+
