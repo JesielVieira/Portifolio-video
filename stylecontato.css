@@ -13,24 +13,20 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: nowrap;
-    grid-row: 2,1fr;
-    
-
-    
+    grid-row: 2,1fr;   
 }
 
 
 #contato-container {
     width: 90%;
     height: 100%;
-    margin: 0 auto;
-    
-   
+    margin: 0 auto; 
 }
 
 .conteudo-card-contato {
     background: linear-gradient(135deg, rgba(97, 7, 243, 0.1), rgba(66, 219, 6, 0));
     backdrop-filter: blur(10px);
+    border-radius: 20px;  
     -webkit-backdrop-filter: blur(10px);
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -43,11 +39,6 @@
     transition: 1.02s;
 }
 
-.conteudo-card-contato:hover {
-
-    scale: 1.02;
-
-}
 
 
 .contato1 {
@@ -75,12 +66,7 @@ h4 {
     transition: 1.02s;
 }
 
-h4:hover {
-    text-transform: uppercase;
-    font-size: clamp(3.5em, 8vw, 10.5em);
-    color: #ffcc00;
-    text-shadow: 0 0 5px #ffcc00 ;
-}
+
 
 h5 {
     text-transform: uppercase;
@@ -89,16 +75,40 @@ h5 {
     transition: 1.02s;
 }
 
-h5:hover {
-    text-transform: uppercase;
-    font-size: clamp(2.5em, 4vw, 5.5em);
-    color: #ffffff;
-    text-shadow: 0 0 5px #ffcc00 ;
+
+
+#contato-body #retornar {
+
+    margin-top: -120px;
+    
+    
 }
 
-#contato-container #retornar {
-    margin-top: -121px;
-
 }
+
+@media (hover:hover) {
+
+
+    h5:hover {
+        text-transform: uppercase;
+        font-size: clamp(2.5em, 4vw, 5.5em);
+        color: #ffffff;
+        text-shadow: 0 0 5px #ffcc00 ;
+    }
+
+    h4:hover {
+        text-transform: uppercase;
+        font-size: clamp(3.5em, 8vw, 10.5em);
+        color: #ffcc00;
+        text-shadow: 0 0 5px #ffcc00 ;
+    }
+
+    .conteudo-card-contato:hover {
+
+        scale: 1.02;
+    
+    }
+    
+
 
 }
